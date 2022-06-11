@@ -1,4 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Entry {
 	
@@ -9,22 +12,58 @@ public class Entry {
 	
 	public Entry()
 	{
-		name = name();
-		prize = prize();
+		try {
+			prize = prize();
+			name = name();
+		} catch (Exception e) {
+			prize = "fail";
+			name = "fail";
+		}
+
 	}
 	
-	public String prize() {
+	public String prize() throws Exception {
 		
-		String[] arr = {"Spoon", "Clock", "Laptop", "Ipad", "Fork"};
+		String file = "Prizes.csv";
+		String[] arr = scan(file);
+		System.out.println("*****");
+		int x = ran.nextInt(arr.length);
+		return arr[x];
+		
+	}
+
+	public String name() throws Exception
+	{	
+		String file = "Names.csv";
+		String[] arr = scan(file);
 		int x = ran.nextInt(arr.length);
 		return arr[x];
 	}
-
-	public String name()
+	
+	public String[] scan(String file) throws Exception
 	{
-		String[] arr = {"John", "Dave", "Phil", "Steve", "Gladys"}; 
-		int x = ran.nextInt(arr.length);
-		return arr[x];
+		
+		Scanner cnt = new Scanner(new File(file));
+		int count = 0;
+		cnt.useDelimiter(",");
+		while(cnt.hasNext())
+		{
+			 count++;
+		}
+		cnt.close();
+		
+		String[] arr = new String[count];
+		Scanner sc = new Scanner(new File(file));
+		sc.useDelimiter(",");
+		int i = 0;
+		while(cnt.hasNext())
+		{
+			//arr[i] = sc.next();
+			i++;
+			System.out.println(sc.next());
+		}
+		sc.close();
+		return arr;
 	}
-
+	
 }
