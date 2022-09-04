@@ -1,7 +1,8 @@
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.BufferedReader;  
+import java.io.FileReader;  
+import java.io.IOException;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Entry {
 	
@@ -42,28 +43,28 @@ public class Entry {
 	
 	public String[] scan(String file) throws Exception
 	{
-		
-		Scanner cnt = new Scanner(new File(file));
-		int count = 0;
-		cnt.useDelimiter(",");
-		while(cnt.hasNext())
-		{
-			 count++;
+		String[] outList = null;
+		String line = "";  
+		String splitBy = ",";  
+		int place = 0;
+		try   
+		{  
+		//parsing a CSV file into BufferedReader class constructor  
+		BufferedReader br = new BufferedReader(new FileReader(file));  
+		while ((line = br.readLine()) != null)   //returns a Boolean value  
+		{  
+			String[] list = line.split(splitBy);    // use comma as separato
+			if(list[1] == null)
+				break;
+			System.out.println("Number=" + list[0] + ", Name=" + list[1]); 
+			outList[place] = list[1];
+		}  
+		}   
+		catch (IOException e)   
+		{  
+		e.printStackTrace();  
 		}
-		cnt.close();
-		
-		String[] arr = new String[count];
-		Scanner sc = new Scanner(new File(file));
-		sc.useDelimiter(",");
-		int i = 0;
-		while(cnt.hasNext())
-		{
-			//arr[i] = sc.next();
-			i++;
-			System.out.println(sc.next());
-		}
-		sc.close();
-		return arr;
+		return outList;
 	}
 	
 }
