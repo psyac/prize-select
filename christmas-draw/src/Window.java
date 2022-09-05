@@ -5,6 +5,7 @@ import java.awt.Font;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.Random;
 
 import javax.swing.JButton;
@@ -19,6 +20,9 @@ public class Window {
 	JFrame guiFrame = new JFrame();
 	Dimension size = new Dimension();
 	
+	ArrayList<String> names = Selector.name();
+	ArrayList<String> prizes = Selector.prize();
+	
 	String[] record = new String[256];
 	int y = 0;
 	
@@ -27,7 +31,7 @@ public class Window {
 		String winner = createArr();
 		
 		//Set the frame up
-		size.setSize(500, 500);
+		size.setSize(750, 500);
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Sets close to exit button
 		guiFrame.setTitle("Christmas Draw");//Sets window title
 		guiFrame.setLayout(new BorderLayout());
@@ -88,22 +92,19 @@ public class Window {
 	}
 	
 	public String createArr()
-	{
-		int len = 5;
-		Entry[] arr = new Entry[len];
+	{		
 		
-		for(int i = 0; i<len; i++)
-		{
-			arr[i] = new Entry();
-		}
-		
-		int x = ran.nextInt(len);
-		String winner = arr[x].name + " " + arr[x].prize;
+		int x = ran.nextInt(names.size());
+		String winName = names.get(x);
+		x = ran.nextInt(prizes.size());
+		String winPrize = prizes.get(x);
+				
+		String winner = winName + " " + winPrize;
 		record[y] = winner;
 		y++;
 		
 		return winner;
 	}
-
+	
 }
 
