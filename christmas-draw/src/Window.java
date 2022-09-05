@@ -12,6 +12,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.SwingConstants;
 
 public class Window {
 	
@@ -23,15 +24,15 @@ public class Window {
 	ArrayList<String> names = Selector.name();
 	ArrayList<String> prizes = Selector.prize();
 	
-	String[] record = new String[256];
+	String[] record = new String[prizes.size()];
 	int y = 0;
 	
 	public Window()
 	{
-		String winner = createArr();
+		String[] win = createArr();
 		
 		//Set the frame up
-		size.setSize(750, 500);
+		size.setSize(1000, 500);
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Sets close to exit button
 		guiFrame.setTitle("Christmas Draw");//Sets window title
 		guiFrame.setLayout(new BorderLayout());
@@ -44,9 +45,10 @@ public class Window {
 		pan.setBackground(Color.red);
 		
 		//Set the label
-		JLabel lab = new JLabel(winner.toUpperCase());
+		JLabel lab = new JLabel(win[0].toUpperCase() + " " + win[1].toUpperCase());
 		lab.setFont(new Font("Veranada", Font.BOLD, 50));
 		pan.add(lab);
+
 		
 		//Set the button
 		JButton refresh = new JButton("REROLL");
@@ -55,8 +57,8 @@ public class Window {
 			@Override
 			public void actionPerformed(ActionEvent e)
 			{
-				String win = createArr();
-				lab.setText(win.toUpperCase());
+				String[] win = createArr();
+				lab.setText(win[0].toUpperCase() + " " + win[1].toUpperCase());
 			}
 			
 		});
@@ -91,7 +93,7 @@ public class Window {
 		return i;
 	}
 	
-	public String createArr()
+	public String[] createArr()
 	{		
 		
 		int x = ran.nextInt(names.size());
@@ -101,9 +103,12 @@ public class Window {
 				
 		String winner = winName + " " + winPrize;
 		record[y] = winner;
+		String[] msg = new String[2];
+		msg[0] = winName;
+		msg[1] = winPrize;
 		y++;
 		
-		return winner;
+		return msg;
 	}
 	
 }
