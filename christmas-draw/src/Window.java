@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
 
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -21,11 +22,16 @@ public class Window {
 	JFrame guiFrame = new JFrame();
 	Dimension size = new Dimension();
 	
-	ArrayList<String> names = Selector.name();
+	ArrayList<String> names = Selector.name(); //Imports the lists of people & prizes
 	ArrayList<String> prizes = Selector.prize();
+	
+	String[] doneNames = new String[names.size()]; // Creates list for all chosen numbers
+	String[] donePrizes = new String[prizes.size()];
+	
 	
 	String[] record = new String[prizes.size()];
 	int y = 0;
+	
 	
 	public Window()
 	{
@@ -79,31 +85,45 @@ public class Window {
 		//Finalise the frame
 		refresh.setPreferredSize(new Dimension (500, 100));
 		guiFrame.add(refresh, BorderLayout.SOUTH);
-		guiFrame.add(reveal, BorderLayout.NORTH);
 		guiFrame.add(pan, BorderLayout.CENTER);
+		guiFrame.add(reveal, BorderLayout.NORTH);
 		guiFrame.pack();//Relative to setting up the window
 		guiFrame.setLocationRelativeTo(null);
 		guiFrame.setVisible(true);
 		
 	}
 	
-	public int randomGen()
-	{
-		int i = ran.nextInt(100);
-		return i;
-	}
 	
 	public String[] createArr()
 	{		
-		
-		int x = ran.nextInt(names.size());
+		String[] msg = new String[2]; //Adds to array to output to screen
+		int x = ran.nextInt(names.size()); //Generates random name & prize
+		while(doneNames[x] == "1") //Checks number hasnt already been drawn
+		{
+			x = ran.nextInt(names.size());
+		}
 		String winName = names.get(x);
+		doneNames[x] = "1";
+		
 		x = ran.nextInt(prizes.size());
+		int loopCheck = 0;
+		while(donePrizes[x] == "1") //Checks number hasnt already been drawn
+		{
+			x = ran.nextInt(prizes.size());
+			if(loopCheck == prizes.size())
+			{
+				msg[0] = "Out Of";
+				msg[1] = "Prizes";
+				return msg;		
+			}
+			loopCheck++;
+		}
 		String winPrize = prizes.get(x);
+		donePrizes[x] = "1";
 				
-		String winner = winName + " " + winPrize;
+		String winner = winName + " " + winPrize; //Adds to notepad file
 		record[y] = winner;
-		String[] msg = new String[2];
+		
 		msg[0] = winName;
 		msg[1] = winPrize;
 		y++;
