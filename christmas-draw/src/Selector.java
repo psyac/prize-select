@@ -59,7 +59,8 @@ public class Selector {
 			{  
 				String[] cell = line.split(splitBy);    // use comma as separato
 				//System.out.println("Name= " + cell[0]);
-				list.add(cell[0]);
+				i++;
+				list.add(i + " " + cell[0]);
 			}  
 		}   
 		catch (IOException e)   

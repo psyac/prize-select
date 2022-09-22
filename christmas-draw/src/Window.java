@@ -1,7 +1,9 @@
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -38,7 +40,7 @@ public class Window {
 		String[] win = createArr();
 		
 		//Set the frame up
-		size.setSize(1000, 500);
+		size.setSize(1300, 1300);
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Sets close to exit button
 		guiFrame.setTitle("Christmas Draw");//Sets window title
 		guiFrame.setLayout(new BorderLayout());
@@ -48,12 +50,34 @@ public class Window {
 		JPanel pan = new JPanel();
 		pan.setLayout(new GridBagLayout());
 		pan.setSize(size);
-		pan.setBackground(Color.red);
+		pan.setBackground(Color.black);
+		
+		GridBagConstraints c = new GridBagConstraints();
+		
+//		//Set the label
+//		JLabel lab = new JLabel(win[0].toUpperCase() + " " + win[1].toUpperCase());
+//		lab.setFont(new Font("Veranada", Font.BOLD, 50));
+//		lab.setForeground(Color.white);
+//		pan.add(lab);
 		
 		//Set the label
-		JLabel lab = new JLabel(win[0].toUpperCase() + " " + win[1].toUpperCase());
-		lab.setFont(new Font("Veranada", Font.BOLD, 50));
-		pan.add(lab);
+		JLabel labUp = new JLabel(win[0].toUpperCase());
+		labUp.setFont(new Font("Veranada", Font.BOLD, 90));
+		labUp.setForeground(Color.white);
+		c.fill = GridBagConstraints.HORIZONTAL; //Allows one label to be placed above the other
+		c.gridx = 0;
+		c.gridy = 0;
+		pan.add(labUp, c);
+		
+		//Set the label
+		JLabel labDn = new JLabel(win[1].toUpperCase());
+		labDn.setFont(new Font("Veranada", Font.BOLD, 90));
+		labDn.setForeground(Color.white);
+		pan.add(labDn);
+		c.fill = GridBagConstraints.HORIZONTAL;
+		c.gridx = 0;
+		c.gridy = 1;
+		pan.add(labUp, c);
 
 		
 		//Set the button
@@ -64,7 +88,9 @@ public class Window {
 			public void actionPerformed(ActionEvent e)
 			{
 				String[] win = createArr();
-				lab.setText(win[0].toUpperCase() + " " + win[1].toUpperCase());
+				//lab.setText(win[0].toUpperCase() + " " + win[1].toUpperCase());
+				labUp.setText(win[0].toUpperCase());
+				labDn.setText(win[1].toUpperCase());
 			}
 			
 		});
@@ -110,10 +136,10 @@ public class Window {
 		while(donePrizes[x] == "1") //Checks number hasnt already been drawn
 		{
 			x = ran.nextInt(prizes.size());
-			if(loopCheck == prizes.size())
+			if(loopCheck == prizes.size()) //Displays message once all prizes have been drawn
 			{
-				msg[0] = "Out Of";
-				msg[1] = "Prizes";
+				msg[0] = "Prizes";
+				msg[1] = "Out Of";
 				return msg;		
 			}
 			loopCheck++;
@@ -121,7 +147,7 @@ public class Window {
 		String winPrize = prizes.get(x);
 		donePrizes[x] = "1";
 				
-		String winner = winName + " " + winPrize; //Adds to notepad file
+		String winner = winName + ", " + winPrize; //Adds to notepad file
 		record[y] = winner;
 		
 		msg[0] = winName;
