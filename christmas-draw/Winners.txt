@@ -1,91 +1,91 @@
-57 Javed Acktar, 49 £20.00
-162 Annie Mannion, 3 Gordons Gin
-413 Billy Duffin, 40 £50.00
-490 Robert Shaw, 26 £20.00
-770 Robert Shaw, 9 Three Barrels Brandy
-459 Paula Quinn, 29 £10.00
-220 Peter McMillan, 14 Guiness Cans
-826 Garry Mather, 58 £20.00
-550 Debbie McGowan, 5 Smirnoff Vodka
-69 Kath Price, 82 £10.00
-279 Paula Quinn, 11 Bacardi
-537 Javed Acktar, 42 £10.00
-399 Robert Shaw, 43 £20.00
-514 Debbie McGowan, 30 £20.00
-404 Debbie McGowan, 74 £20.00
-464 Bernard Geraghty, 39 £10.00
-155 Javed Acktar, 79 £10.00
-283 Yvonne Eaves, 20 Roses Chocolates
-683 Joyce Priday, 44 £10.00
-39 Debbie McGowan, 60 £20.00
-301 Hazel Gustafson, 2 Famous Grouse
-734 Eddie Morrison, 73 £10.00
-577 Vanessa Marshall, 59 £10.00
-784 Garry Mather, 70 £10.00
-307 Eddie Morrison, 51 £20.00
-795 John Maddocks, 13 Guiness Cans
-229 Debbie McGowan, 67 £10.00
-502 Kath Price, 90 £10.00
-292 Yvonne Eaves, 88 £20.00
-743 Bernard Geraghty, 18 Fosters Cans
-300 Billy Duffin, 47 £20.00
-447 Annie Mannion, 54 £20.00
-546 Yvonne Eaves, 28 £10.00
-814 Javed Acktar, 65 £20.00
-840 Peter McMillan, 52 £10.00
-492 Paula Quinn, 80 £20.00
-365 Annie Mannion, 89 £10.00
-297 Ray Langton, 38 £20.00
-407 Robert Shaw, 56 £10.00
-792 Garry Mather, 48 £10.00
-135 Bernard Geraghty, 81 £10.00
-833 Hazel Gustafson, 36 £10.00
-186 Debbie McGowan, 33 £10.00
-675 Brenda Quinn, 37 £20.00
-559 Brenda Quinn, 22 Heros Chocolates
-802 Ruth Ditchfield, 57 £10.00
-156 Yvonne Eaves, 19 Roses Chocolates
-152 Kath Price, 53 £20.00
-274 Joyce Priday, 84 £10.00
-806 John Maddocks, 4 Gordons Gin
-347 Javed Acktar, 86 £10.00
-320 Billy Duffin, 32 £20.00
-388 Yvonne Eaves, 72 £10.00
-130 Eddie Morrison, 83 £20.00
-266 Bernard Geraghty, 10 Three Barrels Brandy
-396 Bernard Geraghty, 63 £10.00
-250 Robert Shaw, 17 Fosters Cans
-350 Robert Shaw, 85 £50.00
-168 Yvonne Eaves, 25 £10.00
-291 Robert Shaw, 16 John Smiths Cans
-831 Mary Maddocks, 12 Bacardi
-718 Paula Quinn, 7 Gordons Pink Gin 
-572 Annie Mannion, 1 Famous Grouse
-646 Billy Duffin, 23 Celebrations Chocolates
-477 Dot Wright, 77 £10.00
-450 John Ward, 41 £20.00
-619 Annie Mannion, 8 Gordons Pink Gin 
-3 Debbie McGowan, 69 £10.00
-431 Debbie McGowan, 71 £50.00
-210 Debbie McGowan, 87 £10.00
-594 Javed Acktar, 55 £100.00
-540 Paula Quinn, 46 £10.00
-652 Eddie Morrison, 15 John Smiths Cans
-606 Yvonne Eaves, 24 Celebrations Chocolates
-656 Ray Langton, 75 £10.00
-728 Robert Shaw, 21 Heros Chocolates
-544 Yvonne Eaves, 62 £20.00
-649 Ray Langton, 76 £20.00
-255 Paula Quinn, 68 £20.00
-475 James McGarvy, 31 £20.00
-439 Debbie McGowan, 78 £10.00
-367 Billy Duffin, 34 £10.00
-650 Robert Shaw, 61 £10.00
-769 Mary Maddocks, 45 £20.00
-13 Lynn Delaney, 66 £10.00
-46 Brenda Quinn, 64 £10.00
-780 Garry Mather, 6 Smirnoff Vodka
-529 Javed Acktar, 50 £20.00
-408 Peter McMillan, 35 £10.00
-302 Robert Shaw, 27 £50.00
-132 Robert Shaw, 91 Cash
+793 John Maddocks, 25 £10.00
+22 Ray Langton, 84 £10.00
+597 Hazel Gustafson, 42 £10.00
+483 Ruth Ditchfield, 56 £10.00
+374 Javed Acktar, 22 Heros Chocolates
+248 Vanessa Marshall, 31 £20.00
+656 Ray Langton, 27 £50.00
+179 Brenda Quinn, 90 £10.00
+104 Yvonne Eaves, 12 Bacardi
+823 Mary Maddocks, 4 Gordons Gin
+710 John Maddocks, 81 £10.00
+384 Javed Acktar, 23 Celebrations Chocolates
+802 Ruth Ditchfield, 58 £20.00
+605 Robert Shaw, 44 £10.00
+213 Yvonne Eaves, 45 £20.00
+780 Garry Mather, 80 £20.00
+643 Robert Shaw, 37 £20.00
+751 John Maddocks, 36 £10.00
+370 Kath Price, 35 £10.00
+623 Billy Duffin, 34 £10.00
+463 Yvonne Eaves, 57 £10.00
+174 Annie Mannion, 41 £20.00
+120 Yvonne Eaves, 75 £10.00
+722 James McGarvy, 1 Famous Grouse
+737 Debbie McGowan, 77 £10.00
+626 Brenda Quinn, 32 £20.00
+280 Javed Acktar, 54 £20.00
+344 Yvonne Eaves, 38 £20.00
+88 Javed Acktar, 61 £10.00
+824 Yvonne Eaves, 21 Heros Chocolates
+515 Yvonne Eaves, 29 £10.00
+58 Yvonne Eaves, 63 £10.00
+578 Eddie Morrison, 83 £20.00
+756 John Maddocks, 71 £50.00
+229 Debbie McGowan, 33 £10.00
+742 Kath Price, 26 £20.00
+94 Robert Shaw, 60 £20.00
+580 Yvonne Eaves, 48 £10.00
+814 Javed Acktar, 51 £20.00
+71 Javed Acktar, 52 £10.00
+715 Robert Shaw, 5 Smirnoff Vodka
+698 Eddie Morrison, 66 £10.00
+62 Yvonne Eaves, 67 £10.00
+732 Robert Shaw, 11 Bacardi
+329 Kath Price, 59 £10.00
+395 Paula Quinn, 10 Three Barrels Brandy
+748 Bernard Geraghty, 20 Roses Chocolates
+686 Eddie Morrison, 69 £10.00
+212 Billy Duffin, 50 £20.00
+255 Paula Quinn, 43 £20.00
+102 Annie Mannion, 65 £20.00
+616 Annie Mannion, 40 £50.00
+154 Hazel Gustafson, 79 £10.00
+149 Robert Shaw, 14 Guiness Cans
+812 Garry Mather, 49 £20.00
+65 Annie Mannion, 86 £10.00
+811 Javed Acktar, 72 £10.00
+326 Robert Shaw, 46 £10.00
+28 Javed Acktar, 85 £50.00
+165 Billy Duffin, 82 £10.00
+208 Nicola Mather, 24 Celebrations Chocolates
+271 Robert Shaw, 89 £10.00
+813 John Maddocks, 73 £10.00
+197 Ruth Ditchfield, 91 Cash
+14 Yvonne Eaves, 13 Guiness Cans
+126 Paula Quinn, 9 Three Barrels Brandy
+594 Javed Acktar, 78 £10.00
+589 Yvonne Eaves, 76 £20.00
+598 Debbie McGowan, 8 Gordons Pink Gin 
+92 Javed Acktar, 87 £10.00
+305 Robert Shaw, 18 Fosters Cans
+485 Debbie McGowan, 28 £10.00
+671 Yvonne Eaves, 3 Gordons Gin
+455 Debbie McGowan, 16 John Smiths Cans
+342 Kath Price, 19 Roses Chocolates
+804 John Maddocks, 70 £10.00
+819 John Maddocks, 2 Famous Grouse
+299 Robert Shaw, 68 £20.00
+73 Peter Fletcher, 7 Gordons Pink Gin 
+442 Ruth Ditchfield, 17 Fosters Cans
+461 James McGarvy, 88 £20.00
+555 Brenda Quinn, 53 £20.00
+72 Ray Langton, 47 £20.00
+795 John Maddocks, 64 £10.00
+638 Peter McMillan, 55 £100.00
+367 Billy Duffin, 74 £20.00
+162 Annie Mannion, 15 John Smiths Cans
+836 Robert Shaw, 6 Smirnoff Vodka
+360 Yvonne Eaves, 39 £10.00
+508 Javed Acktar, 30 £20.00
+216 Bernard Geraghty, 62 £20.00
