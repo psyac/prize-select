@@ -87,17 +87,17 @@ public class Window {
 			@Override
 			public void actionPerformed(ActionEvent e)
 			{
-//				try {
-//					Thread.sleep(500);
+				try {
+					Thread.sleep(1000);
 //					pan.setBackground(Color.red);
 //					Thread.sleep(500);
 //					pan.setBackground(Color.yellow);
 //					Thread.sleep(500);
 //					pan.setBackground(Color.green);
 //					Thread.sleep(500);
-//					//pan.setBackground(Color.black);
-//				} catch (InterruptedException e1) {
-//				}
+//					pan.setBackground(Color.black);
+				} catch (InterruptedException e1) {
+				}
 				String[] win = createArr();
 				//lab.setText(win[0].toUpperCase() + " " + win[1].toUpperCase());
 				labUp.setText(win[0].toUpperCase());
