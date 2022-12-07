@@ -29,13 +29,12 @@ public class Launch extends Application
     public ArrayList<String> prizes = new ReadCSV().getPrizes();
     public String[] doneNames = new String[names.size()];
     public String[] donePrizes = new String[prizes.size()];
-    public String[] rollerN = {"David", "Shelia", "Gladice", "Barry", "John"};
-    public String[] rollerP = {"Beer", "Vodka", "Toaster", "Cash", "Cider"};
     public String[] winString = new String[2];
     public Boolean wOrP = false;
-    Label winner = new Label("CHRISTMAS DRAW");
-    Label ticket = new Label("");
-    Label prize = new Label("2022");
+    Label winner = new Label("");
+    Label nameW = new Label("CHRISTMAS DRAW");
+    Label ticket = new Label("2022");
+    Label prize = new Label("");
     Button reroll = new Button("Re roll");
     Button outPut = new Button("OUT");
 
@@ -55,9 +54,11 @@ public class Launch extends Application
         doneFill();
         stage.setFullScreen(true);
 
-        winner.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
+        winner.setFont(Font.font("Veranda", FontWeight.BOLD, 150));
         ticket.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
+        nameW.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
         prize.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
+        nameW.setTextFill(Color.WHITE);
         ticket.setTextFill(Color.WHITE);
         winner.setTextFill(Color.WHITE);
         prize.setTextFill(Color.WHITE);
@@ -72,7 +73,7 @@ public class Launch extends Application
         borderP.setMinSize(1000, 500);
         borderP.setPadding(new Insets(10, 10, 10, 10));
 
-        VBox text = new VBox(winner, ticket, prize);
+        VBox text = new VBox(winner, nameW, ticket, prize);
         text.setAlignment(Pos.CENTER);
         text.setSpacing(30);
 
@@ -105,6 +106,12 @@ public class Launch extends Application
                 fadeW.setToValue(10);
                 fadeW.setNode(winner);
 
+                FadeTransition fadeN = new FadeTransition();
+                fadeN.setDuration(Duration.seconds(3));
+                fadeN.setFromValue(0);
+                fadeN.setToValue(10);
+                fadeN.setNode(nameW);
+
                 FadeTransition fadeT = new FadeTransition();
                 fadeT.setDuration(Duration.seconds(3));
                 fadeT.setFromValue(0);
@@ -124,7 +131,9 @@ public class Launch extends Application
                     fadeW.play();
                     fadeT.play();
                     fadeP.play();
-                    winner.setText("OUT");
+                    fadeW.play();
+                    winner.setText("");
+                    nameW.setText("OUT");
                     ticket.setText("OF");
                     prize.setText("PRIZES");
                     outPut.setVisible(true);
@@ -139,8 +148,10 @@ public class Launch extends Application
                         winString = selectorGet();
                         fadeW.play();
                         fadeT.play();
+                        fadeN.play();
                         String[] parts = winString[0].split(" ",2);
-                        winner.setText("Winner: "+ parts[1]);
+                        winner.setText("WINNER");
+                        nameW.setText(parts[1]);
                         ticket.setText("Ticket: "+ parts[0]);
                         prize.setText("");
                         wOrP = true;
@@ -205,15 +216,6 @@ public class Launch extends Application
         }
     }
 
-    public void roller() throws InterruptedException
-    {
-        for(int i = 0; i < rollerN.length; i++)
-        {
-            winner.setText(rollerN[i]);
-            prize.setText(rollerP[i]);
-            Thread.sleep(50);
-        }
-    }
 
 
 
