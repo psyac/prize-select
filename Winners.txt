@@ -1,91 +1,92 @@
-61 Peter Fletcher,41 �20.00
-107 Debbie McGowan,57 �10.00
-120 Yvonne Eaves,16 John Smiths Cans
-72 Ray Langton,26 �20.00
-503 Javed Acktar,54 �20.00
-131 Yvonne Eaves,8 Gordons Pink Gin 
-753 John Maddocks,55 �100.00
-636 Robert Shaw,89 �10.00
-267 Robert Shaw,34 �10.00
-150 Ray Langton,85 �50.00
-139 Yvonne Eaves,60 �20.00
-686 Eddie Morrison,46 �10.00
-238 Yvonne Eaves,91 Cash
-663 Debbie McGowan,72 �10.00
-205 Paula Quinn,78 �10.00
-552 Billy Duffin,51 �20.00
-586 Ruth Ditchfield,81 �10.00
-465 Debbie McGowan,45 �20.00
-849 Mary Maddocks,62 �20.00
-62 Yvonne Eaves,23 Celebrations Chocolates
-193 Nicola Mather,27 �50.00
-88 Javed Acktar,82 �10.00
-641 Bernard Geraghty,61 �10.00
-446 Debbie McGowan,31 �20.00
-746 Yvonne Eaves,5 Smirnoff Vodka
-322 Yvonne Eaves,30 �20.00
-755 Garry Mather,86 �10.00
-587 Kath Price,53 �20.00
-271 Robert Shaw,48 �10.00
-615 Robert Shaw,83 �20.00
-601 Robert Shaw,36 �10.00
-635 Javed Acktar,74 �20.00
-679 Robert Shaw,7 Gordons Pink Gin 
-666 Ray Langton,13 Guiness Cans
-263 Javed Acktar,73 �10.00
-708 Yvonne Eaves,84 �10.00
-69 Kath Price,15 John Smiths Cans
-260 Robert Shaw,76 �20.00
-605 Robert Shaw,43 �20.00
-249 Nicola Mather,49 �20.00
-542 Vanessa Marshall,42 �10.00
-153 Joyce Priday,87 �10.00
-278 Eddie Morrison,3 Gordons Gin
-482 Paula Quinn,19 Roses Chocolates
-65 Annie Mannion,33 �10.00
-105 Jim McGarva,67 �10.00
-608 Paula Quinn,75 �10.00
-728 Robert Shaw,11 Bacardi
-531 Yvonne Eaves,24 Celebrations Chocolates
-56 Robert Shaw,29 �10.00
-435 Billy Duffin,50 �20.00
-654 Joyce Priday,77 �10.00
-749 Robert Shaw,9 Three Barrels Brandy
-617 David Proctor,56 �10.00
-118 Jim McGarva,68 �20.00
-580 Yvonne Eaves,52 �10.00
-776 John Maddocks,80 �20.00
-805 Javed Acktar,90 �10.00
-624 Bernard Geraghty,59 �10.00
-559 Brenda Quinn,64 �10.00
-689 Annie Mannion,37 �20.00
-634 Joyce Priday,63 �10.00
-598 Debbie McGowan,22 Heros Chocolates
-44 Robert Shaw,4 Gordons Gin
-756 John Maddocks,21 Heros Chocolates
-766 Mary Maddocks,2 Famous Grouse
-754 Garry Mather,71 �50.00
-274 Joyce Priday,28 �10.00
-52 Hazel Gustafson,1 Famous Grouse
-452 Carol Shaw,38 �20.00
-145 Billy Duffin,12 Bacardi
-672 Brenda Quinn,18 Fosters Cans
-716 Annie Mannion,44 �10.00
-701 Robert Shaw,39 �10.00
-171 Yvonne Eaves,65 �20.00
-618 James Mannion,20 Roses Chocolates
-717 James McGarvy,35 �10.00
-493 Javed Acktar,10 Three Barrels Brandy
-819 John Maddocks,14 Guiness Cans
-94 Robert Shaw,69 �10.00
-540 Paula Quinn,17 Fosters Cans
-46 Brenda Quinn,32 �20.00
-377 John Ward,79 �10.00
-762 Garry Mather,25 �10.00
-4 Robert Shaw,58 �20.00
-285 Javed Acktar,66 �10.00
-354 Robert Shaw,88 �20.00
-694 Vanessa Marshall,40 �50.00
-76 Javed Acktar,70 �10.00
-57 Javed Acktar,6 Smirnoff Vodka
-404 Debbie McGowan,47 �20.00
+293 Javed Acktar,23 Celebrations Chocolates
+501 Hazel Gustafson,74 Cash
+392 Robert Shaw,22 Heros Chocolates
+9 Debbie McGowan,90 Cash
+738 Debbie McGowan,70 Cash
+96 Billy Duffin,76 Cash
+668 Bernard Geraghty,35 Cash
+844 Mary Maddocks,26 Cash
+707 kam,67 Cash
+783 Mary Maddocks,55 Cash
+831 Mary Maddocks,50 Cash
+27 Hazel Gustafson,37 Cash
+605 Robert Shaw,71 Cash
+355 Robert Shaw,10 Three Barrels Brandy
+647 Robert Shaw,52 Cash
+111 Robert Shaw,31 Cash
+384 Javed Acktar,25 Cash
+188 Ruth Ditchfield,48 Cash
+396 Bernard Geraghty,49 Cash
+216 Bernard Geraghty,2 Famous Grouse
+644 Yvonne Eaves,78 Cash
+527 Kath Price,21 Heros Chocolates
+328 Yvonne Eaves,30 Cash
+619 Annie Mannion,5 Smirnoff Vodka
+523 Yvonne Eaves,65 Cash
+441 Robert Shaw,43 Cash
+838 Joyce Priday,33 Cash
+556 Ray Langton,40 Cash
+826 Garry Mather,34 Cash
+621 Bernard Geraghty,64 Cash
+454 Beryl Smith,57 Cash
+582 Ruth Ditchfield,60 Cash
+553 Annie Mannion,4 Gordons Gin
+820 Yvonne Eaves,81 Cash
+751 John Maddocks,89 Cash
+154 Hazel Gustafson,9 Three Barrels Brandy
+387 Peter McMillan,8 Gordons Pink Gin 
+573 James McGarvy,16 John Smiths Cans
+32 R + K,14 Guiness Cans
+51 Hazel Gustafson,82 Cash
+49 Brenda Quinn,36 Cash
+400 Billy Duffin,45 Cash
+162 Annie Mannion,56 Cash
+232 Kath Price,18 Fosters Cans
+342 Kath Price,84 Cash
+214 Bernard Geraghty,87 Cash
+353 Hazel Gustafson,72 Cash
+551 Robert Shaw,28 Cash
+784 Garry Mather,44 Cash
+484 Kath Price,27 Cash
+258 Javed Acktar,53 Cash
+330 Yvonne Eaves,51 Cash
+526 Javed Acktar,75 Cash
+157 Robert Shaw,66 Cash
+339 Billy Duffin,63 Cash
+44 Robert Shaw,79 Cash
+372 Jim McGarva,41 Cash
+213 Yvonne Eaves,85 Cash
+127 Yvonne Eaves,38 Cash
+117 Paula Quinn,7 Gordons Pink Gin 
+446 Debbie McGowan,46 Cash
+363 Yvonne Eaves,83 Cash
+405 Paula Quinn,1 Famous Grouse
+218 John Ward,73 Cash
+324 Billy Duffin,58 Cash
+742 Kath Price,19 Roses Chocolates
+320 Billy Duffin,62 Cash
+408 Peter McMillan,47 Cash
+518 Javed Acktar,88 Cash
+822 Billy Duffin,61 Cash
+292 Yvonne Eaves,86 Cash
+439 Debbie McGowan,77 Cash
+95 Robert Shaw,6 Smirnoff Vodka
+142 Robert Shaw,17 Fosters Cans
+519 Ray Langton,54 Cash
+674 Brenda Quinn,24 Celebrations Chocolates
+101 Robert Shaw,11 Bacardi
+177 Brenda Quinn,12 Bacardi
+746 Yvonne Eaves,80 Cash
+85 Robert Shaw,13 Guiness Cans
+626 Brenda Quinn,39 Cash
+555 Brenda Quinn,3 Gordons Gin
+380 Robert Shaw,42 Cash
+537 Javed Acktar,20 Roses Chocolates
+55 Javed Acktar,69 Cash
+277 Yvonne Eaves,15 John Smiths Cans
+248 Vanessa Marshall,59 Cash
+136 Bernard Geraghty,29 Cash
+680 Peter McMillan,91 Cash
+425 John Ward,32 Cash
+798 Robert Shaw,68 Cash
+

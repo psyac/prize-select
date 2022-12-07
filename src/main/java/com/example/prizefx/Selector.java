@@ -6,10 +6,6 @@ import java.util.Random;
 public class Selector
 {
     Random ran = new Random();
-    public static void main(String[] args)
-    {
-
-    }
 
     public String nameSelect (ArrayList<String> names, String[] doneNames)
     {
