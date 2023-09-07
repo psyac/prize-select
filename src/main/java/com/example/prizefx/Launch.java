@@ -30,11 +30,15 @@ public class Launch extends Application
     public String[] doneNames = new String[names.size()];
     public String[] donePrizes = new String[prizes.size()];
     public String[] winString = new String[2];
+    public String[] prevNames = {"","","",""};
+    public String prevNamesString = "";
     public Boolean wOrP = false;
+    public Boolean isFull = false;
     Label winner = new Label("");
     Label nameW = new Label("CHRISTMAS DRAW");
     Label ticket = new Label("2022");
     Label prize = new Label("");
+    Label nameList = new Label ("");
     Button reroll = new Button("Re roll");
     Button outPut = new Button("OUT");
 
@@ -58,12 +62,15 @@ public class Launch extends Application
         ticket.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
         nameW.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
         prize.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
+        nameList.setFont(Font.font("Veranda", FontWeight.BOLD, 50));
         nameW.setTextFill(Color.WHITE);
         ticket.setTextFill(Color.WHITE);
         winner.setTextFill(Color.WHITE);
         prize.setTextFill(Color.WHITE);
+        nameList.setTextFill(Color.WHITE);
         reroll.setPrefSize(100,50);
         outPut.setVisible(false);
+        reroll.setStyle("-fx-background-color: #000000; ");
 
         BorderPane borderP = new BorderPane();
         borderP.setBackground(new Background(new BackgroundFill(Color.BLACK,
@@ -77,7 +84,7 @@ public class Launch extends Application
         text.setAlignment(Pos.CENTER);
         text.setSpacing(30);
 
-        VBox buttons = new VBox(reroll, outPut);
+        VBox buttons = new VBox(reroll, outPut, nameList);
         buttons.setAlignment(Pos.CENTER);
         buttons.setSpacing(30);
 
@@ -85,14 +92,14 @@ public class Launch extends Application
         borderP.setBottom(buttons);
         Scene scene = new Scene(borderP);
 
-        buttonSetUp();
+        buttonSetUp(stage);
 
-        stage.setTitle("Hello!");
+        stage.setTitle("Christmas Prize Draw");
         stage.setScene(scene);
         stage.show();
     }
 
-    public void buttonSetUp()
+    public void buttonSetUp(Stage stage)
     {
 
         reroll.setOnAction(new EventHandler<ActionEvent>()
@@ -100,6 +107,7 @@ public class Launch extends Application
             @Override
             public void handle(ActionEvent actionEvent)
             {
+                stage.setFullScreen(true);
                 FadeTransition fadeW = new FadeTransition();
                 fadeW.setDuration(Duration.seconds(3));
                 fadeW.setFromValue(0);
@@ -137,8 +145,13 @@ public class Launch extends Application
                     ticket.setText("OF");
                     prize.setText("PRIZES");
                     outPut.setVisible(true);
-                    String winCon = winString[0] + "," + winString[1];
-                    winners.add(winCon);
+                    if(!isFull)
+                    {
+                        String winCon = winString[0] + "," + winString[1];
+                        winners.add(winCon);
+                        isFull = true;
+                    }
+
                 }
                 else
                 {
@@ -154,6 +167,16 @@ public class Launch extends Application
                         nameW.setText(parts[1]);
                         ticket.setText("Ticket: "+ parts[0]);
                         prize.setText("");
+
+
+                        prevNames[3] = prevNames[2];
+                        prevNames[2] = prevNames[1];
+                        prevNames[1] = prevNames[0];
+                        prevNames[0] = parts[0] + " " + parts[1] + " |";
+                        prevNamesString =
+                                prevNames[0] + " " + prevNames[1] + " " + prevNames[2] + " " +prevNames[3];
+
+                        nameList.setText(prevNamesString);
                         wOrP = true;
                     }
                     else
