@@ -36,18 +36,20 @@ public class Launch extends Application
     public Boolean isFull = false;
     Label winner = new Label("");
     Label nameW = new Label("CHRISTMAS DRAW");
-    Label ticket = new Label("2022");
+    Label ticket = new Label("2023");
     Label prize = new Label("");
+    Label buffer = new Label("");
     Label nameList = new Label ("");
     Button reroll = new Button("Re roll");
     Button outPut = new Button("OUT");
+    String[] parts = {"","",""};
 
     @Override
     public void start(Stage stage) throws IOException
     {
         FXMLLoader fxmlLoader = new FXMLLoader(Launch.class.getResource("hello-view.fxml"));
 
-        Image back = new Image("C:\\Users\\Aidan\\Desktop\\Personal-Projects\\prize-select\\src\\main\\resources\\com\\example\\prizefx\\background.png");
+        Image back = new Image("C:\\Users\\phil\\OneDrive\\Desktop\\prize-select\\src\\main\\resources\\com\\example\\prizefx\\background.png");
         BackgroundImage backIm = new BackgroundImage
                 (back,
                         BackgroundRepeat.SPACE, BackgroundRepeat.SPACE,
@@ -80,7 +82,7 @@ public class Launch extends Application
         borderP.setMinSize(1000, 500);
         borderP.setPadding(new Insets(10, 10, 10, 10));
 
-        VBox text = new VBox(winner, nameW, ticket, prize);
+        VBox text = new VBox(winner, nameW, ticket, prize, buffer);
         text.setAlignment(Pos.CENTER);
         text.setSpacing(30);
 
@@ -162,21 +164,15 @@ public class Launch extends Application
                         fadeW.play();
                         fadeT.play();
                         fadeN.play();
-                        String[] parts = winString[0].split(" ",2);
+                        String[] nameParts = winString[0].split(" ",2);
                         winner.setText("WINNER");
-                        nameW.setText(parts[1]);
-                        ticket.setText("Ticket: "+ parts[0]);
+                        nameW.setText(nameParts[1]);
+                        ticket.setText("Number: "+ nameParts[0]);
+                        parts[0] = nameParts[0];
+                        parts[1] = nameParts[1];
+
                         prize.setText("");
 
-
-                        prevNames[3] = prevNames[2];
-                        prevNames[2] = prevNames[1];
-                        prevNames[1] = prevNames[0];
-                        prevNames[0] = parts[0] + " " + parts[1] + " |";
-                        prevNamesString =
-                                prevNames[0] + " " + prevNames[1] + " " + prevNames[2] + " " +prevNames[3];
-
-                        nameList.setText(prevNamesString);
                         wOrP = true;
                     }
                     else
@@ -185,6 +181,17 @@ public class Launch extends Application
                         prize.setText("Prize: "+ winString[1]);
                         String winCon = winString[0] + "," + winString[1];
                         winners.add(winCon);
+                        parts[2] = winString[1];
+
+                        prevNames[3] = prevNames[2];
+                        prevNames[2] = prevNames[1];
+                        prevNames[1] = prevNames[0];
+                        prevNames[0] = parts[0] + " " + parts[1] + " " + parts[2] + " |";
+                        prevNamesString =
+                                prevNames[0] + " " + prevNames[1] + " " + prevNames[2] + " " +prevNames[3];
+
+                        nameList.setText(prevNamesString);
+
                         wOrP = false;
                     }
                 }

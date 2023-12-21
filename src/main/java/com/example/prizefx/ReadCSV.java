@@ -50,7 +50,7 @@ public class ReadCSV
             {
                 String[] cell = line.split(splitBy);    // use comma as separato
                 i++;
-                prizes.add(i + " " + cell[0]);
+                prizes.add(Integer.toString(i));
             }
         }
         catch (IOException e)

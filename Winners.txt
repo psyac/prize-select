@@ -1,91 +1,91 @@
-569 Hazel Gustafson,39 Cash
-46 Brenda Quinn,4 Gordons Gin
-202 Robert Shaw,43 Cash
-233 Debbie McGowan,86 Cash
-354 Robert Shaw,72 Cash
-130 Eddie Morrison,34 Cash
-93 Paula Quinn,67 Cash
-333 Debbie McGowan,79 Cash
-441 Robert Shaw,26 Cash
-18 Peter Fletcher,47 Cash
-129 Javed Acktar,51 Cash
-174 Annie Mannion,83 Cash
-266 Bernard Geraghty,33 Cash
-162 Annie Mannion,8 Gordons Pink Gin 
-559 Brenda Quinn,20 Roses Chocolates
-626 Brenda Quinn,42 Cash
-52 Hazel Gustafson,56 Cash
-27 Hazel Gustafson,45 Cash
-697 David Proctor,54 Cash
-427 Joyce Priday,7 Gordons Pink Gin 
-443 Billy Duffin,58 Cash
-196 Kath Price,41 Cash
-728 Robert Shaw,23 Celebrations Chocolates
-117 Paula Quinn,27 Cash
-453 Robert Shaw,66 Cash
-790 Garry Mather,65 Cash
-629 Brenda Quinn,89 Cash
-848 Debbie McGowan,38 Cash
-267 Robert Shaw,55 Cash
-29 Javed Acktar,31 Cash
-349 Robert Shaw,75 Cash
-627 Brenda Quinn,6 Smirnoff Vodka
-799 Yvonne Eaves,74 Cash
-140 Eddie Morrison,78 Cash
-550 Debbie McGowan,59 Cash
-669 Billy Duffin,5 Smirnoff Vodka
-311 Bernard Geraghty,1 Famous Grouse
-30 Javed Acktar,76 Cash
-386 Yvonne Eaves,85 Cash
-515 Yvonne Eaves,12 Bacardi
-12 Yvonne Eaves,64 Cash
-14 Yvonne Eaves,25 Cash
-227 Hazel Gustafson,82 Cash
-319 Robert Shaw,52 Cash
-688 Billy Duffin,81 Cash
-580 Yvonne Eaves,18 Fosters Cans
-622 Robert Shaw,80 Cash
-114 Billy Duffin,17 Fosters Cans
-134 Yvonne Eaves,91 Cash
-598 Debbie McGowan,71 Cash
-219 Vanessa Marshall,68 Cash
-759 John Maddocks,15 John Smiths Cans
-700 John Ward,62 Cash
-128 Javed Acktar,44 Cash
-798 Robert Shaw,70 Cash
-787 Mary Maddocks,2 Famous Grouse
-732 Robert Shaw,13 Guiness Cans
-595 Paula Quinn,57 Cash
-643 Robert Shaw,88 Cash
-620 Jim McGarva,9 Three Barrels Brandy
-467 Ruth Ditchfield,87 Cash
-261 Yvonne Eaves,10 Three Barrels Brandy
-672 Brenda Quinn,29 Cash
-604 Kath Price,37 Cash
-257 Kath Price,40 Cash
-166 Vanessa Marshall,50 Cash
-368 Hazel Gustafson,3 Gordons Gin
-143 Debbie McGowan,53 Cash
-535 Robert Shaw,11 Bacardi
-198 Billy Duffin,63 Cash
-357 Kath Price,49 Cash
-821 Yvonne Eaves,28 Cash
-609 Hazel Gustafson,84 Cash
-194 Robert Shaw,19 Roses Chocolates
-444 Robert Shaw,32 Cash
-151 Hazel Gustafson,73 Cash
-758 Garry Mather,16 John Smiths Cans
-163 Yvonne Eaves,46 Cash
-845 Javed Acktar,14 Guiness Cans
-33 Debbie McGowan,48 Cash
-258 Javed Acktar,36 Cash
-404 Debbie McGowan,35 Cash
-37 Javed Acktar,90 Cash
-377 John Ward,77 Cash
-326 Robert Shaw,24 Celebrations Chocolates
-81 Ruth Ditchfield,61 Cash
-410 Yvonne Eaves,69 Cash
-403 Brenda Quinn,22 Heros Chocolates
-477 Dot Wright,60 Cash
-475 James McGarvy,30 Cash
-327 Eddie Morrison,21 Heros Chocolates
+506 Annie Mannion,34
+200 Bernard Geraghty,25
+201 Ray Langton,70
+340 Javed Acktar,67
+701 Robert Shaw,15
+547 Billy Duffin,41
+397 Bernard Geraghty,13
+256 Javed Acktar,86
+192 Kath Price,85
+730 Debbie McGowan,82
+71 Javed Acktar,63
+632 Paula Quinn,27
+365 Annie Mannion,35
+116 Robert Shaw,62
+688 Billy Duffin,89
+353 Hazel Gustafson,10
+262 Hazel Gustafson,30
+115 Javed Acktar,4
+28 Javed Acktar,66
+839 Ruth Ditchfield,49
+415 Robert Shaw,5
+655 Debbie McGowan,37
+214 Bernard Geraghty,56
+576 Billy Duffin,48
+534 Kath Price,55
+609 Hazel Gustafson,1
+196 Kath Price,73
+42 Debbie McGowan,54
+615 Robert Shaw,38
+95 Robert Shaw,71
+638 Peter McMillan,68
+588 Robert Shaw,28
+530 Debbie McGowan,20
+308 Robert Shaw,8
+210 Debbie McGowan,32
+734 Eddie Morrison,47
+351 Yvonne Eaves,23
+373 Beryl Smith,79
+538 Yvonne Eaves,9
+243 Ray Langton,31
+34 Robert Shaw,53
+127 Yvonne Eaves,72
+771 John Maddocks,33
+788 Yvonne Eaves,83
+477 Dot Wright,58
+98 Javed Acktar,84
+847 John Maddocks,14
+244 John Ward,91
+29 Javed Acktar,52
+23 Sandra McGowan,74
+333 Debbie McGowan,78
+406 Hazel Gustafson,46
+708 Yvonne Eaves,88
+515 Yvonne Eaves,12
+230 Nicola Mather,22
+215 Nicola mather,90
+346 Debbie McGowan,42
+461 James McGarvy,29
+828 John Maddocks,19
+255 Paula Quinn,76
+32 R + K,59
+474 Annie Mannion,2
+337 Javed Acktar,7
+782 Garry Mather,16
+628 Brenda Quinn,45
+36 Paula Quinn,26
+681 Ruth Ditchfield,18
+486 Robert Shaw,3
+49 Brenda Quinn,77
+733 Billy Duffin,43
+403 Brenda Quinn,75
+7 Sandra McGowan,6
+769 Mary Maddocks,11
+228 Bill C,17
+89 Bernard Geraghty,64
+428 Bernard Geraghty,57
+743 Bernard Geraghty,50
+504 Javed Acktar,65
+452 Carol Shaw,80
+739 Ray Langton,61
+208 Nicola Mather,40
+495 Robert Shaw,69
+484 Kath Price,81
+131 Yvonne Eaves,21
+417 Vanessa Marshall,51
+227 Hazel Gustafson,36
+498 Robert Shaw,87
+431 Debbie McGowan,39
+407 Robert Shaw,44
+206 Beryl Smith,60
+11 Paula Quinn,24
