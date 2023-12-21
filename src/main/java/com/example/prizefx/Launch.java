@@ -43,6 +43,7 @@ public class Launch extends Application
     Button reroll = new Button("Re roll");
     Button outPut = new Button("OUT");
     String[] parts = {"","",""};
+    int prizesLeft = prizes.size();
 
     @Override
     public void start(Stage stage) throws IOException
@@ -197,7 +198,7 @@ public class Launch extends Application
                                 prevNames[0] + " " + prevNames[1] + " " + prevNames[2] + " " +prevNames[3];
 
                         fadeNL.play();
-                        nameList.setText(prevNamesString);
+                        nameList.setText(--prizesLeft + " | " +prevNamesString );
 
                         wOrP = false;
                     }

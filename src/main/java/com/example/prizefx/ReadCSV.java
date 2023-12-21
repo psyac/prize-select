@@ -22,7 +22,7 @@ public class ReadCSV
             BufferedReader br = new BufferedReader(new FileReader("Names.csv"));
             while ((line = br.readLine()) != null)   //returns a Boolean value
             {
-                String[] cell = line.split(splitBy);    // use comma as separato
+                String[] cell = line.split(splitBy);    // use comma as separator
                 i++;
                 names.add(i + " " + cell[0]);
             }
@@ -31,7 +31,7 @@ public class ReadCSV
         {
             e.printStackTrace();
         }
-
+        System.out.println(names.size());
         return names;
     }
 
