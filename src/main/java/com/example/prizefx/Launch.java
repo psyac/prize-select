@@ -34,8 +34,8 @@ public class Launch extends Application
     public String prevNamesString = "";
     public Boolean wOrP = false;
     public Boolean isFull = false;
-    Label winner = new Label("");
-    Label nameW = new Label("CHRISTMAS DRAW");
+    Label winner = new Label("ANNUAL");
+    Label nameW = new Label("CLUB LOTTO");
     Label ticket = new Label("2023");
     Label prize = new Label("");
     Label buffer = new Label("");
@@ -64,7 +64,7 @@ public class Launch extends Application
         ticket.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
         nameW.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
         prize.setFont(Font.font("Veranda", FontWeight.BOLD, 100));
-        nameList.setFont(Font.font("Veranda", FontWeight.BOLD, 50));
+        nameList.setFont(Font.font("Veranda", FontWeight.BOLD, 30));
         nameW.setTextFill(Color.WHITE);
         ticket.setTextFill(Color.WHITE);
         winner.setTextFill(Color.WHITE);
@@ -84,7 +84,7 @@ public class Launch extends Application
 
         VBox text = new VBox(winner, nameW, ticket, prize, buffer);
         text.setAlignment(Pos.CENTER);
-        text.setSpacing(30);
+        text.setSpacing(20);
 
         VBox buttons = new VBox(reroll, outPut, nameList);
         buttons.setAlignment(Pos.CENTER);
@@ -133,6 +133,12 @@ public class Launch extends Application
                 fadeP.setFromValue(0);
                 fadeP.setToValue(10);
                 fadeP.setNode(prize);
+
+                FadeTransition fadeNL = new FadeTransition();
+                fadeNL.setDuration(Duration.seconds(3));
+                fadeNL.setFromValue(0);
+                fadeNL.setToValue(10);
+                fadeNL.setNode(nameList);
 
 
 
@@ -190,6 +196,7 @@ public class Launch extends Application
                         prevNamesString =
                                 prevNames[0] + " " + prevNames[1] + " " + prevNames[2] + " " +prevNames[3];
 
+                        fadeNL.play();
                         nameList.setText(prevNamesString);
 
                         wOrP = false;
